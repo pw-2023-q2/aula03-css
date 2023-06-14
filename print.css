@@ -1,0 +1,8 @@
+/* a stylesheet intented for use in printint context */
+
+p {
+    font-weight: lighter;
+    color: aqua;
+    font-size: smaller;
+    
+}

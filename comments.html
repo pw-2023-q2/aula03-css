@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comments</title>
+
+    <!-- Demonstration of class selectors, id selectors and pseudo-selectors -->
+    <style>
+        #latestComment {
+            font-style: italic;
+            color: brown;
+        }
+
+        /**
+        .comment-title {
+            font-weight: bold;
+            color: red;
+        }
+        */
+
+        div p:first-child {
+            font-weight: bold;
+            color: red; 
+        }
+
+
+        #latestComment, .comment-title {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        div p {
+            color: green;
+            border: 1px dashed grey;
+        }
+
+        a:link {
+            text-decoration: underline;
+            color: black;
+        }
+
+        a:visited {
+            text-decoration: underline;
+            color: pink;
+        }
+
+        a:hover {
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:active {
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <div id="latestComment">
+        <p class="comment-title">Comentário 1</p>
+        <p>Conteúdo do comentário 1</p>
+    </div>
+    <div>
+        <p class="comment-title">Comentário 2</p>
+        <p>Conteúdo do comentário 2</p>
+    </div>
+    <div>
+        <p class="comment-title">Comentário 3</p>
+        <p>Conteúdo do comentário 3</p>
+    </div>
+
+    <p>Lembre-se de visitar nossas redes sociais</p>
+
+    <nav>
+        <ul>
+            <a href="#/1">Brasil</a>
+            <a href="#/2">Canada</a>
+            <a href="#/3">Japan</a>
+        </ul>
+    </nav>
+</body>
+</html>

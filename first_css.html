@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS syntax</title>
+
+    <!--
+    <style>
+        em {
+            color: red;
+        }
+
+        p {
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 20px;
+        }
+    </style>
+    -->
+    
+    <!-- Demonstration of media queries to alternate between screen and print styles -->
+
+    <!-- general screen context  -->
+    <link rel="stylesheet" href="styles.css" media="screen">
+    <!-- print context -->
+    <link rel="stylesheet" href="print.css" media="print">
+    <!-- possible mobile device context (max 1090px width) -->
+    <link rel="stylesheet" href="mobile.css" media="screen and (max-device-width: 1080px)">
+
+</head>
+<body>
+    <p>Hello,<em>UFABC</em>. You are <em>welcome</em>.</p>
+    <p>Hello,<em>CMCC</em>. You are <em>welcome</em>.</p>
+</body>
+</html>
